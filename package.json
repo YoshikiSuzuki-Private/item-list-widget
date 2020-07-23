@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/YoshikiSuzuki-Private/item-list-widget/issues"
   },
-  "homepage": "https://github.com/YoshikiSuzuki-Private/item-list-widget#readme"
+  "homepage": "https://github.com/YoshikiSuzuki-Private/item-list-widget#readme",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.14"
+  },
+  "dependencies": {
+    "@google/clasp": "^2.3.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  }
 }

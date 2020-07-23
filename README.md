@@ -2,16 +2,24 @@
 スプレッドシートの情報を商品リストのHTMLにして返すGAS
 
 # 初期化
+すべてローカルインストールするのでpackage.json追加した
+```
+npm init -y
+```
 ## clasp導入
 https://github.com/google/clasp
 ```
-npm install -g @google/clasp
+npm i @google/clasp
 ```
 ## 開発環境的なあれ
 ```
-npm i typescript -g
-npm i tslint -g
+npm i typescript
+npm i tslint
 npx tslint --init
+```
+型補完に対応させた
+```
+npm i @types/google-apps-script --save-dev
 ```
 ## プロジェクト作成
 ```
@@ -27,4 +35,3 @@ vim .gitignore #.clasp.jsonを対象外
 ```
 {"scriptId":"{scriptIdを入れる}"}
 ```
-ここまででfirstcomit
