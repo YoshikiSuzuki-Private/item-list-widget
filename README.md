@@ -35,3 +35,5 @@ vim .gitignore #.clasp.jsonを対象外
 ```
 {"scriptId":"{scriptIdを入れる}"}
 ```
+# npx clasp runの手順
+https://github.com/google/clasp/blob/master/docs/run.md
